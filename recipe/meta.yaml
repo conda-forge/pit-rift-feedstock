@@ -1,5 +1,5 @@
 {% set name = "pit-rift" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pit_rift-{{ version }}.tar.gz
-  sha256: a32eb97f57f3f37b18f16e0081d7dadd238a22e3aebcea185b7a6b175e8f35a9
+  sha256: 06191f35a941b35dabf2c38f41043ee27bc1446838538dc90219250c6699bb88
 
 build:
   entry_points:
